@@ -1,0 +1,136 @@
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    border-bottom: 2px solid rgb(52, 15, 15);
+}
+
+.a1{
+    margin-left: 10px;
+}
+
+.logo {
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: bold;
+    font-size: 19px;
+    
+}
+
+
+
+
+.s1{
+    margin-left: 30px;
+    
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+li{
+    display: flex;
+    cursor: pointer;
+    font-weight: 100;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* newx */
+
+/* From Uiverse.io by satyamchaudharydev */ 
+/* inspired form gumroad website */
+.s1 {
+    --bg: #000;
+    --hover-bg: #ff90e8;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.4em 1em; /* Reduced padding */
+    background: var(--bg);
+    font-size: 0.875rem; /* Adjusted font size */
+    transition: 0.2s;
+  }
+  
+  .s1:hover {
+    color: var(--hover-text);
+    transform: translate(-0.2rem, -0.2rem); /* Slightly smaller transform */
+    background: var(--hover-bg);
+    box-shadow: 0.2rem 0.2rem var(--bg); /* Adjusted box-shadow */
+  }
+  
+  .s1:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+
+ select {
+    padding: 3px 8px ; 
+    border-radius: 6px;
+    border: 2px solid wheat;
+    background: transparent;
+    color: white;
+ }
+
+ option {
+    background: #872341;
+    color: wheat;
+ }
+
+ @media (max-width: 768px) {
+
+    ul li {
+        display: none;
+    }
+
+   .logo {
+    font-size: 15px;
+   }
+
+   .s1 {
+    display: none;
+   }
+
+ }
+
+
+
+
+
+.h-content {
+    padding-top: 10px;
+}
+ 
+/* 
+.hro form {
+    padding: 8px;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.hro input {
+    flex: 1;
+    font-size:16px ;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+.hro button {
+    border: none;
+    background-color: #872341;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+} */
+

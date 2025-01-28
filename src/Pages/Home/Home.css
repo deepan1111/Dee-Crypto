@@ -1,0 +1,107 @@
+.hro form {
+    padding: 8px;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto; /* Center form on the page */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for better appearance */
+}
+.hro {
+    text-align: center;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+    align-items: center;
+
+}
+.home {
+    padding: 30px 50vh;
+ }
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.hro input {
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border: 1px solid #ddd; /* Add a light border for better visuals */
+    border-radius: 5px; /* Match the border radius */
+}
+
+.hro button {
+    border: none;
+    background-color: #872341;
+    color: white;
+    padding: 10px 20px; /* Reduce padding for smaller screens */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Add hover transition */
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hro button:hover {
+    background-color: #a32f50; /* Slightly lighter color on hover */
+}
+
+/* Media Query for Small Screens */
+@media (max-width: 600px) {
+    .hro form {
+        flex-direction: column; /* Stack items vertically */
+        gap: 15px; /* Increase space between input and button */
+        width: 90%; /* Take up more width on smaller screens */
+    }
+
+    .hro button {
+        width: 100%; /* Make button full-width for better accessibility */
+        padding: 12px; /* Adjust padding for better touch targets */
+    }
+
+    .hro input {
+        width: 100%; /* Make input full-width */
+    }
+
+    .home {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+}
+
+.crypto-table {
+
+    max-width: 800px;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #bd0d3f;
+}
+
+.t-layout {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr 1fr 1.5fr;
+    padding: 15px 20px;
+    align-items: center;
+    border-bottom: 1pxx solid #872341;
+}
