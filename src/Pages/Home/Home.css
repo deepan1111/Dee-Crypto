@@ -96,7 +96,10 @@ p {
     margin: auto;
     border-radius: 15px;
     background-color: #bd0d3f;
+    
 }
+
+
 
 .t-layout {
     display: grid;

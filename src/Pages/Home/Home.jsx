@@ -13,6 +13,7 @@ const Home = () => {
 
         <div className="crypto-table">
           <div className="t-layout">
+            <p>hello</p>
             <p>#</p>
             <p>Coins</p>
             <p>Price</p>
