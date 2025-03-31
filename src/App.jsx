@@ -3,7 +3,8 @@ import './App.css'
 import Home from "./Pages/Home/Home"
 import NavBar from "./Component/Navbar"
 import {Routes,Route} from "react-router-dom"
-import Coin from "./Pages/Coins/coins"
+import StockDetails from './Component/NewStock'
+
 function App() {
  
 
@@ -13,7 +14,7 @@ function App() {
       <NavBar/>
       <Routes>
         <Route path= '/' element = {<Home/>}/>
-        <Route path='/coins/:coinId' element={<Coin/>}/>
+        <Route path='/stock/:symbol' element={<StockDetails/>}/>
       </Routes>
     </div>
   )
