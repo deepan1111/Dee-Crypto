@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #f4f4f4;
+    background-color: black;
     min-height: 100vh;
     font-family: Arial, sans-serif;
   }
@@ -31,7 +31,7 @@
   }
   
   .stock-table {
-    background-color: rgb(46, 32, 32);
+    background-color:black;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -45,7 +45,7 @@
     padding: 10px;
     text-align: center;
     font-weight: bold;
-    border-bottom: 1px solid #0056b3;
+    border-bottom: 1px solid wheat;
   }
   
   .table-row p {
@@ -54,7 +54,7 @@
   
   .stock-link {
     text-decoration: none;
-    color: #007bff;
+    color: wheat;
     transition: color 0.3s;
   }
   
@@ -91,4 +91,8 @@
       grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
       font-size: 14px;
     }
+  }
+
+  .home h1 {
+    color: white;
   }

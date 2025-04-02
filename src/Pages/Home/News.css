@@ -1,0 +1,83 @@
+/* Dark theme */
+body {
+    background-color: black;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main container */
+  .news-container {
+    width: 90%;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: black;
+    
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  /* News list (Fixing UL to be vertical) */
+  .news-list {
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    gap: 10px;  /* Space between news items */
+    padding: 0;
+    list-style: none;  /* Remove bullet points */
+    width: 100%;
+  }
+  
+  /* Make sure UL is vertical */
+  .news-list ul {
+    display: flex;
+    flex-direction: column;  /* Forces vertical stacking */
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  /* Each news item appears in a new line */
+  .news-item {
+    display: flex;
+    align-items: center;  /* Align items properly */
+    width: 100%;  /* Prevent horizontal overflow */
+    padding: 10px;
+    border-bottom: 1px solid #444; /* Light separator */
+  }
+  
+  /* Sentiment circle */
+  .sentiment-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-right: 10px; /* Space between circle and text */
+  }
+  
+  /* News details */
+  .news-details {
+    display: flex;
+    flex-direction: column;
+    width: 100%;  /* Ensures text wraps properly */
+  }
+  
+  /* News title */
+  .news-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    word-wrap: break-word;  /* Prevents text from running off screen */
+  }
+  
+  /* News source (small and grey) */
+  .news-source {
+    font-size: 13px;
+    color: #bbbbbb;
+  }
+  

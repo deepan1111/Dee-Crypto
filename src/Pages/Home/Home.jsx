@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 import '../Home/Home.css';
-
+import News from "../Home/News"
 const API_KEY = 'cvkn02pr01qtnb8tlqt0cvkn02pr01qtnb8tlqtg'; // Replace with your Finnhub API key
 const STOCK_SYMBOLS = ['AAPL', 'MSFT', 'GOOGL', 'AMZN', 'TSLA', 'NVDA', 'FB', 'NFLX', 'INTC', 'IBM'];
 
@@ -93,6 +93,8 @@ const Home = () => {
           )}
         </div>
       )}
+      <News/>
+      
     </div>
   );
 };

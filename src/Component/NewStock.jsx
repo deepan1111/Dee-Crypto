@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 import './StockDetails.css';
+import News from "../Pages/Home/News"
 
 
 const API_KEY = 'cvkn02pr01qtnb8tlqt0cvkn02pr01qtnb8tlqtg'; // Replace with your Finnhub API key
@@ -37,7 +38,8 @@ const StockDetails = () => {
   }
 
   return (
-    <div className="stock-details">
+    <div>
+      <div className="stock-details">
       <h1>{symbol} Stock Details</h1>
       <p><strong>Current Price:</strong> ${stockData.c.toFixed(2)}</p>
       <p><strong>Open Price:</strong> ${stockData.o.toFixed(2)}</p>
@@ -45,6 +47,8 @@ const StockDetails = () => {
       <p><strong>Low Price:</strong> ${stockData.l.toFixed(2)}</p>
       <p><strong>Previous Close:</strong> ${stockData.pc.toFixed(2)}</p>
     </div>
+    </div>
+    
   );
 };
 

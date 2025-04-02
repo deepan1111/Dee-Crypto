@@ -4,9 +4,12 @@ const Navbar = () => {
   return (
     <div className='hero'>
         <div className="logo">
+          <h1>
           <a href="/">
           Stock-App</a>
             
+          </h1>
+         
         </div>
       
         
